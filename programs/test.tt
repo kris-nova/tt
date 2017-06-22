@@ -1,0 +1,4 @@
+{{ SetVar "Name" "Kris" }}
+{{ SetVar "NewName" "$Name" }}
+{{ StdOut "$NewName" }}
+{{ VarDump }}
